@@ -13,7 +13,7 @@
  
 ![GitHub top language](https://img.shields.io/github/languages/top/Danilo-Js/Repo-Searcher)
  
-![GitHub language count](https://img.shields.io/github/languages/count/Danilo-Js/Repo-Shearcher)
+![GitHub language count](https://img.shields.io/github/languages/count/Danilo-Js/Repo-Searcher)
 
 ![GitHub](https://img.shields.io/github/license/Danilo-Js/Repo-Searcher)
 
