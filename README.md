@@ -8,18 +8,25 @@
   Find new repos with this React & React Native project
 </h4>
 
-
 <p align="center">
- 
-![GitHub top language](https://img.shields.io/github/languages/top/Danilo-Js/Repo-Searcher)
- 
-![GitHub language count](https://img.shields.io/github/languages/count/Danilo-Js/Repo-Searcher)
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Danilo-Js/Repo-Searcher">
 
-![GitHub](https://img.shields.io/github/license/Danilo-Js/Repo-Searcher)
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Danilo-Js/Repo-Searcher">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher)
+  <a href="https://www.codacy.com/app/lukemorales/react-native-design-code?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lukemorales/react-native-design-code&amp;utm_campaign=Badge_Grade">
+    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/04db4b43120b4d05b9b39c9d2da97300.svg">
+  </a>
 
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/Danilo-Js/Repo-Searcher)
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
+  <a href="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
+  </a>
+
+  <a href="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
+  </a>
+
+  <img alt="GitHub" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
 </p>
 
 <p align="center" direction="row">
