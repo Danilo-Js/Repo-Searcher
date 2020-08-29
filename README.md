@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  Find new repos with this React & React Native project
+  Find new repos with this ReactJS & React Native project
 </h4>
 
 <p align="center">
