@@ -42,8 +42,8 @@
 ## :airplane: Project Working
 
 <p align="center">
-  <img alt="App Demo" src="https://res.cloudinary.com/lukemorales/image/upload/v1563901304/readme_logos/designcode_screen_01_nxrabs.gif">
-  <img alt="App Demo" src="https://res.cloudinary.com/lukemorales/image/upload/v1563901538/readme_logos/designcode_screen_02_kuvvwt.gif">
+  <img alt="Android" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Nexus%205%20API%2028.gif">
+  <img alt="iOS" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
 </p>
 
 ## :rocket: Technologies
