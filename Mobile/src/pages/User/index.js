@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { ActivityIndicator } from 'react-native';
+import React, {Component} from 'react';
+import {ActivityIndicator} from 'react-native';
 import PropTypes from 'prop-types';
 
 import api from '../../services/api';
@@ -17,9 +17,10 @@ import {
   Title,
   Author,
 } from './styles';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 
 export default class User extends Component {
-  static navigationOptions = ({ navigation }) => ({
+  static navigationOptions = ({navigation}) => ({
     title: navigation.getParam('user').name,
   });
 
@@ -37,10 +38,10 @@ export default class User extends Component {
   };
 
   async componentDidMount() {
-    this.setState({ loading: true });
+    this.setState({loading: true});
 
-    const { navigation } = this.props;
-    let { page } = this.state;
+    const {navigation} = this.props;
+    let {page} = this.state;
 
     const user = navigation.getParam('user');
 
@@ -55,9 +56,9 @@ export default class User extends Component {
   }
 
   loadMore = async () => {
-    const { navigation } = this.props;
-    const { stars } = this.state;
-    let { page } = this.state;
+    const {navigation} = this.props;
+    const {stars} = this.state;
+    let {page} = this.state;
 
     const user = navigation.getParam('user');
 
@@ -67,49 +68,28 @@ export default class User extends Component {
     this.setState({
       page,
       stars: [...stars, ...response.data],
+      refreshing: false,
     });
   };
 
-  refreshList = async () => {
-    console.tron.log(`foi1`);
+  refreshList = () => {
+    this.setState({refreshing: true, stars: [], page: 0}, this.loadMore);
+  };
 
-    this.setState({
-      refreshing: true,
-      stars: [],
-      page: 0,
-      loading: true,
-    });
-    console.tron.log(`foi2`);
-
-    const { navigation } = this.props;
-    let { page } = this.state;
-
-    console.tron.log(`foi3`);
-
-    const user = navigation.getParam('user');
-
-    page += 1;
-    const response = await api.get(`/users/${user.login}/starred?page=${page}`);
-
-    console.tron.log(`foi4`);
-
-    this.setState({
-      page,
-      stars: response.data,
-      refreshing: false,
-      loading: false,
-    });
+  handleNavigate = (repository) => {
+    const {navigation} = this.props;
+    navigation.navigate('Repository', {repository});
   };
 
   render() {
-    const { navigation } = this.props;
-    const { stars, loading, refreshing } = this.state;
+    const {navigation} = this.props;
+    const {stars, loading, refreshing} = this.state;
     const user = navigation.getParam('user');
 
     return (
       <Container>
         <Header>
-          <Avatar source={{ uri: user.avatar }} />
+          <Avatar source={{uri: user.avatar}} />
           <Name>{user.name}</Name>
           <Bio>{user.bio}</Bio>
         </Header>
@@ -124,14 +104,16 @@ export default class User extends Component {
             onEndReached={this.loadMore}
             onRefresh={() => this.refreshList()}
             refreshing={refreshing}
-            renderItem={({ item }) => (
-              <Starred>
-                <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
-                <Info>
-                  <Title>{item.name}</Title>
-                  <Author>{item.owner.login}</Author>
-                </Info>
-              </Starred>
+            renderItem={({item}) => (
+              <TouchableOpacity onPress={() => this.handleNavigate(item)}>
+                <Starred>
+                  <OwnerAvatar source={{uri: item.owner.avatar_url}} />
+                  <Info>
+                    <Title>{item.name}</Title>
+                    <Author>{item.owner.login}</Author>
+                  </Info>
+                </Starred>
+              </TouchableOpacity>
             )}
           />
         )}
