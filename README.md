@@ -41,9 +41,10 @@
 
 ## :airplane: Project Working
 
+<p align="center">In the mobile project, you can add new github accounts and search up on it's starred repositories with an WebView.</p>
 <p align="center">
   <img alt="Android" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Nexus%205%20API%2028.gif">
-  <img alt="iOS" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
+  <img alt="iOS" width="350" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
 </p>
 
 ## :rocket: Technologies
