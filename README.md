@@ -53,9 +53,18 @@ This project was developed with the following technologies:
 
 -  [React-Native](https://facebook.github.io/react-native/)
 -  [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
--  [React Navigation](https://reactnavigation.org/)
+-  [React Navigation 4.x](https://reactnavigation.org/docs/4.x/getting-started/)
 -  [styled-components](https://www.styled-components.com/)
+-  [AsyncStorage](https://github.com/react-native-community/async-storage)
+-  [Axios](https://www.npmjs.com/package/react-native-axios)
+-  [Reanimated](https://github.com/software-mansion/react-native-reanimated)
+-  [Safe-Area-Context](https://github.com/th3rdwave/react-native-safe-area-context)
+-  [Screens](https://github.com/software-mansion/react-native-screens)
+-  [Vector-Icons](https://github.com/oblador/react-native-vector-icons)
+-  [WebView](https://github.com/react-native-community/react-native-webview)
+-  [MaskedView](https://github.com/react-native-community/react-native-masked-view)
 -  [PropTypes](https://github.com/facebook/prop-types)
+-  [Reactotron](https://github.com/infinitered/reactotron)
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
 ## :information_source: How To Use
