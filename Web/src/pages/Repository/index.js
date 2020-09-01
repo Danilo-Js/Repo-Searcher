@@ -19,19 +19,22 @@ export default class Repository extends Component {
     repository: {},
     issues: [],
     loading: true,
+    page: 0,
   };
 
   async componentDidMount() {
-    const { match } = this.props;
+    const { match, page } = this.props;
 
     const repoName = decodeURIComponent(match.params.repository);
 
+    let newPage = page + 1;
     const [repository, issues] = await Promise.all([
       api.get(`/repos/${repoName}`),
       api.get(`/repos/${repoName}/issues`, {
         params: {
           state: 'open',
           per_page: 5,
+          page: newPage,
         },
       }),
     ]);
@@ -40,6 +43,7 @@ export default class Repository extends Component {
       repository: repository.data,
       issues: issues.data,
       loading: false,
+      page: newPage,
     });
   }
 
@@ -66,6 +70,7 @@ export default class Repository extends Component {
               <div>
                 <strong>
                   <a href={issue.html_url}>{issue.title}</a>
+                  <text>{issue.state}</text>
                   {issue.labels.map((label) => (
                     <span key={String(label.id)}>{label.name}</span>
                   ))}

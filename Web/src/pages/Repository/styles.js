@@ -91,6 +91,17 @@ export const IssueList = styled.ul`
           padding: 3px 4px;
           margin-left: 10px;
         }
+
+        text {
+          background: #eee;
+          color: #ff0000;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 600;
+          height: 20px;
+          padding: 3px 4px;
+          margin-left: 10px;
+        }
       }
 
       p {
