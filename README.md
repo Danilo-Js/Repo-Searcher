@@ -77,15 +77,14 @@ $ git clone https://github.com/Danilo-Js/Repo-Searcher.git
 
 # Go into the repository
 $ cd Repo-Searcher
+$ cd Mobile | cd Web
 
 # Install dependencies
 $ yarn install
 
-# Run the app (iOS)
-$ npx react-native run-ios
-
-# Run the app (Android)
-$ npx react-native run-android
+# Run the app
+$ npx react-native run-ios | npx react-native run-android
+$ yarn start
 ```
 
 ## :memo: License
