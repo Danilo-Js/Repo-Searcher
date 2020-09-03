@@ -31,15 +31,12 @@
 </p>
 
 <p align="center" direction="row">
-  <a href="#airplane-project-working">Project Working</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
 </br>
-
-## :airplane: Project Working
 
 <p align="center">In the mobile project, you can add new github accounts and search up on it's starred repositories with an WebView.</p>
 <p align="center">
