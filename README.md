@@ -45,6 +45,7 @@
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
+-  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
 #### Mobile
 -  [React Navigation 4.x](https://reactnavigation.org/docs/4.x/getting-started/)
@@ -62,7 +63,6 @@ This project was developed with the following technologies:
 -  [Vector-Icons](https://github.com/oblador/react-native-vector-icons)
 -  [WebView](https://github.com/react-native-community/react-native-webview)
 -  [Reactotron](https://github.com/infinitered/reactotron)
--  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
 #### Website
 -  [ReactJS](https://reactjs.org)
@@ -73,6 +73,7 @@ This project was developed with the following technologies:
 -  [React-icons](https://react-icons.github.io/react-icons/)
 -  [React-dom](reactjs.org/docs/react-dom.html)
 
+</p>
 ## :information_source: How To Use
 
 To clone and run this application, you'll need [React](https://reactjs.org/docs/getting-started.html) & [React Native](https://reactnative.dev/docs/getting-started) installed on your computer. From your command line:
