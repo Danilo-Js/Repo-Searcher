@@ -26,8 +26,6 @@
   <a href="https://img.shields.io/github/issues/Danilo-Js/Repo-Searcher/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/Danilo-Js/Repo-Searcher">
   </a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/Danilo-Js/Repo-Searcher">
 </p>
 
 <p align="center" direction="row">
@@ -40,33 +38,44 @@
 
 <p align="center">In the mobile project, you can add new github accounts and search up on it's starred repositories with an WebView.</p>
 <p align="center">
-  <img alt="Android" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Nexus%205%20API%2028.gif">
-  <img alt="iOS" width="350" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
+  <img alt="Android" width="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Nexus%205%20API%2028.gif">
+  <img alt="iOS" width="287" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
 </p>
 
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
 
--  [React-Native](https://facebook.github.io/react-native/)
--  [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
+#### Mobile
 -  [React Navigation 4.x](https://reactnavigation.org/docs/4.x/getting-started/)
--  [styled-components](https://www.styled-components.com/)
+    - react-navigation-stack
+-  [React-Native](https://facebook.github.io/react-native/)
+-  [Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
+-  [MaskedView](https://github.com/react-native-community/react-native-masked-view)
 -  [AsyncStorage](https://github.com/react-native-community/async-storage)
+-  [Styled-components](https://www.styled-components.com/)
 -  [Axios](https://www.npmjs.com/package/react-native-axios)
+-  [PropTypes](https://github.com/facebook/prop-types)
 -  [Reanimated](https://github.com/software-mansion/react-native-reanimated)
 -  [Safe-Area-Context](https://github.com/th3rdwave/react-native-safe-area-context)
 -  [Screens](https://github.com/software-mansion/react-native-screens)
 -  [Vector-Icons](https://github.com/oblador/react-native-vector-icons)
 -  [WebView](https://github.com/react-native-community/react-native-webview)
--  [MaskedView](https://github.com/react-native-community/react-native-masked-view)
--  [PropTypes](https://github.com/facebook/prop-types)
 -  [Reactotron](https://github.com/infinitered/reactotron)
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
+#### Website
+-  [ReactJS](https://reactjs.org)
+-  [Axios](https://www.npmjs.com/package/react-native-axios)
+-  [PropTypes](https://github.com/facebook/prop-types)
+-  [Styled-components](https://www.styled-components.com/)
+-  [React-router-dom](https://reactrouter.com)
+-  [React-icons](https://react-icons.github.io/react-icons/)
+-  [React-dom](reactjs.org/docs/react-dom.html)
+
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [React](https://reactjs.org/docs/getting-started.html) & [React Native][https://reactnative.dev/docs/getting-started] installed on your computer. From your command line:
+To clone and run this application, you'll need [React](https://reactjs.org/docs/getting-started.html) & [React Native](https://reactnative.dev/docs/getting-started) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -79,8 +88,10 @@ $ cd Mobile | cd Web
 # Install dependencies
 $ yarn install
 
-# Run the app
+# Run the mobile app
 $ npx react-native run-ios | npx react-native run-android
+
+# Run the website
 $ yarn start
 ```
 
