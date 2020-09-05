@@ -112,3 +112,50 @@ export const IssueList = styled.ul`
     }
   }
 `;
+
+export const PageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+`;
+
+export const PreviousPage = styled.button.attrs((props) => ({
+  page: props.page,
+}))`
+  background: #7159c1;
+  border: 0;
+  padding: 0 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  opacity: ${(props) => (props.page === 1 ? 0.3 : 1)};
+  cursor: ${(props) => (props.page === 1 ? `not-allowed` : `allowed`)};
+
+  p {
+    color: #fff;
+  }
+`;
+
+export const NextPage = styled.button`
+  background: #7159c1;
+  border: 0;
+  padding: 0 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: #fff;
+  }
+`;

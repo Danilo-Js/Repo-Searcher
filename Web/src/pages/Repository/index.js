@@ -4,7 +4,14 @@ import PropTypes from 'prop-types';
 import api from '../../services/api';
 
 import Container from '../../components/Container/index';
-import { Loading, Owner, IssueList } from './styles';
+import {
+  Loading,
+  Owner,
+  IssueList,
+  PreviousPage,
+  NextPage,
+  PageContainer,
+} from './styles';
 
 export default class Repository extends Component {
   static propTypes = {
@@ -23,7 +30,12 @@ export default class Repository extends Component {
   };
 
   async componentDidMount() {
-    const { match, page } = this.props;
+
+  }
+
+  catchIssues() {
+    const { page } = this.state;
+    const { match } = this.props;
 
     const repoName = decodeURIComponent(match.params.repository);
 
@@ -47,8 +59,20 @@ export default class Repository extends Component {
     });
   }
 
+  handlePreviusPage() {
+    const { page } = this.state;
+
+    if (page !== 1) {
+
+    }
+  }
+
+  handleNextPage() {
+
+  }
+
   render() {
-    const { repository, issues, loading } = this.state;
+    const { repository, issues, loading, page } = this.state;
 
     if (loading) {
       return <Loading>Carregando</Loading>;
@@ -80,6 +104,15 @@ export default class Repository extends Component {
             </li>
           ))}
         </IssueList>
+
+        <PageContainer>
+          <PreviousPage onPress={this.handlePreviusPage} page={page}>
+            <p>Anterior</p>
+          </PreviousPage>
+          <NextPage onPress={this.handleNextPage}>
+            <p>Próxima</p>
+          </NextPage>
+        </PageContainer>
       </Container>
     );
   }
