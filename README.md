@@ -41,6 +41,11 @@
   <img alt="Android" width="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Nexus%205%20API%2028.gif">
   <img alt="iOS" width="287" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/iPhone%2011%20(13.6).gif">
 </p>
+</br>
+<p align="center">In the web project, you can add new github repositories and search upon it's issues.</p>
+<p align="center">
+   <img alt="Web" width="600" height="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/READMEGifs/Web.gif">
+</p>
 
 ## :rocket: Technologies
 
@@ -73,7 +78,6 @@ This project was developed with the following technologies:
 -  [React-icons](https://react-icons.github.io/react-icons/)
 -  [React-dom](reactjs.org/docs/react-dom.html)
 
-</p>
 ## :information_source: How To Use
 
 To clone and run this application, you'll need [React](https://reactjs.org/docs/getting-started.html) & [React Native](https://reactnative.dev/docs/getting-started) installed on your computer. From your command line:
