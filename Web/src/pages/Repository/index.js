@@ -29,17 +29,26 @@ export default class Repository extends Component {
     page: 0,
   };
 
-  async componentDidMount() {
-
+  componentDidMount() {
+    this.catchIssues(true);
   }
 
-  catchIssues() {
+  async catchIssues(isNextPage) {
     const { page } = this.state;
     const { match } = this.props;
 
     const repoName = decodeURIComponent(match.params.repository);
 
-    let newPage = page + 1;
+    let newPage = page;
+    if (isNextPage) {
+      newPage = newPage + 1;
+    } else {
+      if (page === 1) {
+        return;
+      }
+      newPage = newPage - 1;
+    }
+
     const [repository, issues] = await Promise.all([
       api.get(`/repos/${repoName}`),
       api.get(`/repos/${repoName}/issues`, {
@@ -57,18 +66,6 @@ export default class Repository extends Component {
       loading: false,
       page: newPage,
     });
-  }
-
-  handlePreviusPage() {
-    const { page } = this.state;
-
-    if (page !== 1) {
-
-    }
-  }
-
-  handleNextPage() {
-
   }
 
   render() {
@@ -106,10 +103,10 @@ export default class Repository extends Component {
         </IssueList>
 
         <PageContainer>
-          <PreviousPage onPress={this.handlePreviusPage} page={page}>
+          <PreviousPage onClick={() => this.catchIssues(false)} page={page}>
             <p>Anterior</p>
           </PreviousPage>
-          <NextPage onPress={this.handleNextPage}>
+          <NextPage onClick={() => this.catchIssues(true)}>
             <p>Próxima</p>
           </NextPage>
         </PageContainer>
