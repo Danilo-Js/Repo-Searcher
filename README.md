@@ -17,10 +17,8 @@
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/e481e8adf78748609c3a06d7c54dd65d">
   </a>
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
-  
   <a href="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
   </a>
 
   <a href="https://img.shields.io/github/issues/Danilo-Js/Repo-Searcher/issues">
