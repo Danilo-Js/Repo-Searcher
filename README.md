@@ -36,13 +36,13 @@
 
 <p align="center">In the mobile project, you can add new github accounts and search up on it's starred repositories with an WebView.</p>
 <p align="center">
-  <img alt="Android" width="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/Nexus%205%20API%2028.gif">
-  <img alt="iOS" width="287" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/iPhone%2011%20(13.6).gif">
+  <img alt="Android" width="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/ReadmeGIFS/Nexus%205%20API%2028.gif">
+  <img alt="iOS" width="287" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/ReadmeGIFS/iPhone%2011%20(13.6).gif">
 </p>
 </br>
 <p align="center">In the web project, you can add new github repositories and search upon it's issues.</p>
 <p align="center">
-   <img alt="Web" width="600" height="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/Web.gif">
+   <img alt="Web" width="600" height="300" src="https://github.com/Danilo-Js/Repo-Searcher/blob/master/ReadmeGIFS/Web.gif">
 </p>
 
 ## :rocket: Technologies
