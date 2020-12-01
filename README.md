@@ -20,10 +20,18 @@
   <a href="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher/commits/master">
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
   </a>
+</p>
 
+<p align="center">
   <a href="https://img.shields.io/github/issues/Danilo-Js/Repo-Searcher/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/Danilo-Js/Repo-Searcher">
   </a>
+  
+  <img alt="Repository forks" src="https://img.shields.io/github/forks/Danilo-Js/Repo-Searcher">
+  
+  <img alt="Repository stars" src="https://img.shields.io/github/stars/Danilo-Js/Repo-Searcher">
+  
+  <img alt="Repository license" src="https://img.shields.io/github/license/Danilo-Js/Repo-Searcher">
 </p>
 
 <p align="center" direction="row">
