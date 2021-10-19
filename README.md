@@ -12,10 +12,6 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Danilo-Js/Repo-Searcher">
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Danilo-Js/Repo-Searcher">
-
-  <a href="https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Danilo-Js/Repo-Searcher&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/e481e8adf78748609c3a06d7c54dd65d">
-  </a>
   
   <a href="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher/commits/master">
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/Danilo-Js/Repo-Searcher">
